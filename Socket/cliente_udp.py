@@ -11,7 +11,7 @@ message = 'Hello, friend.'
 
 try:
     # definindo tempo limite
-    sock.settimeout(2)
+    sock.settimeout(5)
     sock.sendto(message.encode(), (host, port))
 
     # recebendo dados de 4096 bytes do servidor
@@ -29,4 +29,4 @@ else:
     print(f'{host} - {port}')
 
     # fecha a conexão após 2 segundos
-    sock.shutdown(2)
+    sock.close()
