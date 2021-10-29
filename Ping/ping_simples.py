@@ -10,4 +10,3 @@ host = str(input('Digite o HOST: ')).strip()
 req_number = int(input('Quantidade de requisições (Ex: 6): '))
 
 test_host(host, req_number)
-
