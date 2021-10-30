@@ -17,4 +17,5 @@ while True:
         # enviando uma mensagem para o mesmo cliente
         # que estabeleceu uma conexão
         print(f'Cliente: {data}')
+        print(f'Address: {address}')
         sock.sendto(data, address)
