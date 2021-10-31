@@ -1,0 +1,2 @@
+Wordlists são arquivos contendo uma palavra por linha. São utilizados em ataques de força bruta como
+quebra de autenticação.
